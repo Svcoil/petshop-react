@@ -48,8 +48,35 @@ const Products = () => {
       description: 'Arranhador resistente para gatos.',
       price: 35,
       image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+    },
+    {
+      id: 7,
+      name: 'Petiscos para Cães',
+      description: 'Petiscos saudáveis e deliciosos.',
+      price: 25,
+      image: 'https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+    },
+    {
+      id: 8,
+      name: 'Areia para Gato',
+      description: 'Areia higiênica para caixa de areia.',
+      price: 30,
+      image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+    },
+    {
+      id: 9,
+      name: 'Escova para Pets',
+      description: 'Escova para pentear e cuidar do pelo.',
+      price: 18,
+      image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+    },
+    {
+      id: 10,
+      name: 'Comedouro Automático',
+      description: 'Comedouro automático para alimentação programada.',
+      price: 120,
+      image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
     }
-  ];
 
   return (
     <section className="products">

@@ -15,11 +15,15 @@ const Header = () => {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/produtos">Produtos</Link></li>
+          <li><Link to="/carrinho">Carrinho ({getCartCount()})</Link></li>
           <li><Link to="/sobre">Sobre</Link></li>
           <li><Link to="/contato">Contato</Link></li>
-          <li><Link to="/carrinho">Carrinho ({getCartCount()})</Link></li>
         </ul>
       </nav>
+      <div className="social-icons">
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">📘 Facebook</a>
+      </div>
     </header>
   );
 };

@@ -6,8 +6,9 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Products from './components/Products';
 import Cart from './components/Cart';
-import Sobre from './components/Sobre';
-import Contato from './components/Contato';
+import About from './components/About';
+import Contact from './components/Contato';
+import WhatsAppButton from './components/WhatsAppButton';
 import './App.css';
 
 function App() {
@@ -21,11 +22,12 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/produtos" element={<Products />} />
               <Route path="/carrinho" element={<Cart />} />
-              <Route path="/sobre" element={<Sobre />} />
-              <Route path="/contato" element={<Contato />} />
+              <Route path="/sobre" element={<About />} />
+              <Route path="/contato" element={<Contact />} />
             </Routes>
           </main>
           <Footer />
+          <WhatsAppButton />
         </div>
       </Router>
     </CartProvider>

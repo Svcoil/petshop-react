@@ -32,6 +32,15 @@ const Contato = () => {
         </div>
         <button type="submit" className="submit-btn">Enviar</button>
       </form>
+      <div className="contact-info">
+        <h3>Informações de Contato</h3>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>WhatsApp: <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Clique aqui</a></p>
+        <div className="social-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">📘 Facebook</a>
+        </div>
+      </div>
     </section>
   );
 };
