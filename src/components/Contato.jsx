@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
 import './Contato.css';
 
 const Contato = () => {
@@ -34,11 +35,11 @@ const Contato = () => {
       </form>
       <div className="contact-info">
         <h3>Informações de Contato</h3>
-        <p>Telefone: (11) 99999-9999</p>
-        <p>WhatsApp: <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Clique aqui</a></p>
+        <p>Telefone: (85) 98820-8404</p>
+        <p>WhatsApp: <a href="https://wa.me/5585988208404" target="_self" rel="noopener noreferrer">Clique aqui</a></p>
         <div className="social-links">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">📘 Facebook</a>
+          <a href="https://instagram.com" target="_self" rel="noopener noreferrer"><FaInstagram size={24} /></a>
+          <a href="https://facebook.com" target="_self" rel="noopener noreferrer"><FaFacebook size={24} /></a>
         </div>
       </div>
     </section>

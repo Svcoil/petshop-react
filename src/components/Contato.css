@@ -66,6 +66,8 @@
   .contato {
     padding: 2rem 1rem;
   }
+}
+
 .contact-info {
   margin-top: 2rem;
   text-align: center;
@@ -102,6 +104,7 @@
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
+  
 }
 
 .social-links a:hover {

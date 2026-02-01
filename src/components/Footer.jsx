@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2023 PetShop Moderno. Todos os direitos reservados.</p>
+        <p>&copy; 2026 PetShop Moderno. Todos os direitos reservados.</p>
         <div className="footer-links">
           <a href="#privacy">Política de Privacidade</a>
           <a href="#terms">Termos de Uso</a>
