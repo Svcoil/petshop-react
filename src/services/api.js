@@ -48,7 +48,7 @@ class ApiService {
   getSessionId() {
     let sessionId = localStorage.getItem('petshop_session_id');
     if (!sessionId) {
-      sessionId = 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+      sessionId = 'session_' + Date.now() + '_' + Math.random().toString(36).substring(2, 11);
       localStorage.setItem('petshop_session_id', sessionId);
     }
     return sessionId;

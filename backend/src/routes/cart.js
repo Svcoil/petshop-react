@@ -3,6 +3,8 @@ import express from 'express';
 const router = express.Router();
 
 // In-memory cart storage (in production, this would use a database)
+// TODO: Implement database persistence (MongoDB, PostgreSQL, etc.) for production
+// Current implementation will lose all cart data on server restart
 let carts = {};
 
 // GET cart by session ID

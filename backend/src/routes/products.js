@@ -8,11 +8,15 @@ const router = express.Router();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Load products from JSON file
+// Load products from JSON file once at startup (cached)
+let productsCache = null;
 const getProducts = () => {
-  const productsPath = join(__dirname, '../../data/products.json');
-  const data = readFileSync(productsPath, 'utf8');
-  return JSON.parse(data);
+  if (!productsCache) {
+    const productsPath = join(__dirname, '../../data/products.json');
+    const data = readFileSync(productsPath, 'utf8');
+    productsCache = JSON.parse(data);
+  }
+  return productsCache;
 };
 
 // GET all products
