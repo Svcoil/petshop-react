@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "backend": "cd backend && npm start",
+    "dev:all": "npm run backend & npm run dev"
   },
   "dependencies": {
     "react": "^19.2.0",
